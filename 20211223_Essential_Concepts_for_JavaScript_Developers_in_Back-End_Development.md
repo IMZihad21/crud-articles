@@ -16,7 +16,7 @@ CRUD operations are foundational in back-end programming, especially for develop
 JSON Web Tokens (JWT) are a standard for securely transmitting information between systems, often used for authentication and authorization.
 
 - **How it Works**: After logging in, a JWT can be issued to a user. This token, which includes encoded user information, is passed along with future requests as proof of identity.
-- **Structure**: JWTs consist of three parts: a header, payload, and signature, ensuring both the data’s integrity and the identity of the signing party.
+- **Structure**: JWTs consist of three parts: a header, payload, and signature, ensuring both the dataâ€™s integrity and the identity of the signing party.
 - **Applications**: JWTs are widely used in APIs for securing routes, allowing your server to know which requests are authenticated without needing to store session data.
 
 JWTs are particularly useful in token-based authentication systems, especially for single-page applications or mobile apps where a stateless approach is beneficial.
@@ -30,7 +30,7 @@ NoSQL databases offer flexible, schema-less storage, ideal for unstructured or s
 - **Column Stores (e.g., Cassandra)**: Organize data in columns, optimized for large datasets.
 - **Graph Databases (e.g., Neo4j)**: Represent relationships through nodes and edges, useful for connected data.
 
-NoSQL’s flexibility and ability to scale horizontally make it a popular choice for modern, rapidly evolving applications. Document stores are especially favored by JavaScript developers due to their JSON-like data format.
+NoSQLâ€™s flexibility and ability to scale horizontally make it a popular choice for modern, rapidly evolving applications. Document stores are especially favored by JavaScript developers due to their JSON-like data format.
 
 ## Relational Databases and SQL
 
@@ -46,7 +46,7 @@ For larger applications with well-defined data relationships, relational databas
 
 Aggregation involves gathering and summarizing data, making it useful for analytics and reporting.
 
-- **MongoDB**: MongoDB’s aggregation pipelines enable you to group, filter, and transform data, creating complex summaries.
+- **MongoDB**: MongoDBâ€™s aggregation pipelines enable you to group, filter, and transform data, creating complex summaries.
 - **SQL Databases**: SQL aggregation functions (e.g., COUNT, SUM, AVG) let you perform similar operations, enabling you to summarize large sets of data based on specific conditions.
 
 Aggregations are essential when analyzing large data volumes, particularly for reporting, dashboards, and business insights.
@@ -55,7 +55,7 @@ Aggregations are essential when analyzing large data volumes, particularly for r
 
 Express.js is a minimalistic, fast framework for building APIs and web applications on top of Node.js.
 
-- **Routing**: Express’s routing feature allows you to define endpoints for different actions (e.g., `/users`, `/products`), making it simple to set up a REST API.
+- **Routing**: Expressâ€™s routing feature allows you to define endpoints for different actions (e.g., `/users`, `/products`), making it simple to set up a REST API.
 - **Middleware**: Middleware functions are used to process requests and responses, handling tasks like authentication, logging, and data validation.
 - **Modularity**: Express is highly flexible and can be extended with various packages, so you only add the functionality your app requires.
 
@@ -65,7 +65,7 @@ Express is an essential framework for any JavaScript developer building server-s
 
 ## Bringing It Together
 
-With these concepts and tools, you’re well-prepared to build full-stack applications. Here’s a common setup:
+With these concepts and tools, youâ€™re well-prepared to build full-stack applications. Hereâ€™s a common setup:
 
 1. Express.js for routing and handling HTTP requests.
 2. JWT for securing endpoints and managing user authentication.
@@ -73,4 +73,4 @@ With these concepts and tools, you’re well-prepared to build full-stack applicat
 4. CRUD for managing data in your application.
 5. Aggregation for creating summaries and analytics from your data.
 
-This combination provides a strong base for creating scalable and secure back-end systems with JavaScript. Start experimenting, and soon you’ll be able to build robust APIs and data-driven applications.
+This combination provides a strong base for creating scalable and secure back-end systems with JavaScript. Start experimenting, and soon youâ€™ll be able to build robust APIs and data-driven applications.
